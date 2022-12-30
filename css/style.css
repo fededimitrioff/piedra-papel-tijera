@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+/* Colors 
+#DF2935
+#3772FF
+#080708
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+.header{
+    background-color: #DF2935;
+    height: 15vh;
+}
+
+.main{
+    background-color: #3772FF;
+    height: 70vh;
+}
+
+.footer{
+    background-color: #080708;
+    height: 15vh;
+}

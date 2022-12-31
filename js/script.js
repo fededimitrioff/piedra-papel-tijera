@@ -37,13 +37,13 @@ function iniciarTurno(e) {
     if(
         (eleccionUsuario === "piedra ✊" && eleccionPc === "tijera ✌") ||
         (eleccionUsuario === "papel 🖐" && eleccionPc === "piedra ✊") ||
-        (eleccionUsuario === "tijera ✌" && eleccionPc === "piedra ✊")
+        (eleccionUsuario === "tijera ✌" && eleccionPc === "papel 🖐")
     ) {
         ganaUsuario();
     } else if(
         (eleccionPc === "piedra ✊" && eleccionUsuario === "tijera ✌") ||
         (eleccionPc === "papel 🖐" && eleccionUsuario === "piedra ✊") ||
-        (eleccionPc === "tijera ✌" && eleccionUsuario === "piedra ✊")
+        (eleccionPc === "tijera ✌" && eleccionUsuario === "papel 🖐")
     ) {
         ganaPc();
     } else{

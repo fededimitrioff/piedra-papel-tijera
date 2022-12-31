@@ -87,10 +87,9 @@ function partidaFinalizada(){
 function reiniciarJuego(){
     contadorUsuario = 0;
     contadorPc = 0;
-
     mensaje.classList.add("disable");
     elegiTuArma.classList.remove("disable");
     puntosUsuario.innerText = contadorUsuario;
     puntosPc.innerText = contadorPc;
-
+    instrucciones.innerText= "El primero en llegar a 5 puntos gana";
 }
